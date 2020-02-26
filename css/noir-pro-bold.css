@@ -1,0 +1,12 @@
+ @font-face {
+    font-family: 'NoirPro-Bold';
+    src: url('../fonts/NoirProBold/NoirProBold.eot');
+    src: url('../fonts/NoirProBold/NoirProBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NoirProBold/NoirProBold.woff2') format('woff2'),
+         url('../fonts/NoirProBold/NoirProBold.woff') format('woff'),
+         url('../fonts/NoirProBold/NoirProBold.ttf') format('truetype');
+}
+
+.noir-pro-bold {
+  font-family: 'NoirPro-Bold', sans-serif;
+}

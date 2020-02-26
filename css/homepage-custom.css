@@ -1,0 +1,52 @@
+.support-dialog:focus {
+  outline: none;
+}
+
+span.text-element.angle.first.sticky-arrow {
+  animation: arrows 1.5s linear 4 1s;
+}
+
+span.text-element.angle.second.sticky-arrow {
+  animation: arrows 1.5s linear 4 1.25s;
+}
+
+span.text-element.angle.sticky-arrow.third {
+  animation: arrows 1.5s linear 4 1.5s;
+}
+
+a.arrows-sticky:hover span.text-element.angle.first.sticky-arrow {
+  animation: arrows-hover 1.5s linear 2 1s;
+}
+
+a.arrows-sticky:hover span.text-element.angle.second.sticky-arrow {
+  animation: arrows-hover 1.5s linear 2 1.25s;
+}
+
+a.arrows-sticky:hover span.text-element.angle.sticky-arrow.third {
+  animation: arrows-hover 1.5s linear 2 1.5s;
+}
+
+
+@keyframes arrows {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes arrows-hover {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+  }
+}
